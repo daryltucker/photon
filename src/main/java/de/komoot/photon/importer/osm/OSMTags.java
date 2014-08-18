@@ -15,7 +15,7 @@ package de.komoot.photon.importer.osm;
 
 /**
  * This represents the tags as they are present in Open Streetmap.
- * For a detailed explanation see 
+ * For a detailed explanation see
  * http://wiki.openstreetmap.org/wiki/Key
  *
  * @date: 14.06.14
@@ -28,6 +28,7 @@ public class OSMTags {
 	public static final String KEY_POSTCODE = "postcode";
 	public static final String KEY_HOUSENUMBER = "housenumber";
 
+    public static final String KEY_NAME = "state";
 	public static final String KEY_NAME = "name";
 	public static final String KEY_COUNTRY = "country";
 	public static final String KEY_CITY = "city";

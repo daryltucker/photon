@@ -49,6 +49,7 @@ public class Utils {
 
 		writeName(builder, doc.getName());
 		writeIntlNames(builder, doc.getCity(), "city");
+		writeIntlNames(builder, doc.getState(), "state");
 		writeIntlNames(builder, doc.getCountry(), "country");
 		writeIntlNames(builder, doc.getStreet(), "street");
 		writeContext(builder, doc.getContext());

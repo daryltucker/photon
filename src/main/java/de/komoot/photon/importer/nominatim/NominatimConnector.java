@@ -150,6 +150,10 @@ public class NominatimConnector {
 							doc.getContext().add(address.getName());
 						}
 					}
+
+					if(address.isState()) {
+						doc.getContext().add(address.getState());
+					}
 				}
 
 				if(!doc.isUsefulForIndex()) return; // do not import document

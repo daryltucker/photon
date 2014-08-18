@@ -26,6 +26,12 @@ public class AddressRow {
 		return 26 <= rankAddress && rankAddress < 28;
 	}
 
+	puclic boolean isState() {
+		if("place".equals(osmKey) && "state".equals(osmValue)) {
+			return true;
+		}
+	}
+
 	public boolean isCity() {
 		if("place".equals(osmKey) && Arrays.binarySearch(CITY_PLACE_VALUES, osmValue) >= 0) {
 			return true;
